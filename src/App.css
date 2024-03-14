@@ -29,9 +29,9 @@
 .marks-chart {
   flex-grow: 1;
   display: grid;
-  /* flex-direction: column; */
   padding: 30px 20px;
   gap: 10px;
+  
 }
 .param {
   display: flex;
@@ -115,4 +115,12 @@ button {
   color: hsl(221, 100%, 96%);
   padding-block: 10px;
   margin-top: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
 }
